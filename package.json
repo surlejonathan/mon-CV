@@ -1,0 +1,23 @@
+{
+  "name": "mon-cv",
+  "version": "1.0.0",
+  "description": "CV",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prefix": "postcss ./css/style.css --use autoprefixer -d ./css/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surlejonathan/mon-CV.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surlejonathan/mon-CV/issues"
+  },
+  "homepage": "https://github.com/surlejonathan/mon-CV#readme"
+}

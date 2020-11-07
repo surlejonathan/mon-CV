@@ -1,5 +1,10 @@
 /* GENERAL */
 
+:root {
+  --main-color: #83b799;
+  --dark-color: #272324;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -56,10 +61,10 @@ section .heading h2 {
   text-transform: uppercase;
 }
 
-.red-divider {
+.color-divider {
   width: 100px;
   height: 2px;
-  background-color: red;
+  background-color: var(--main-color);
   margin: 0 auto;
 }
 
@@ -73,7 +78,7 @@ section .heading h2 {
 /* MENU */
 
 .navbar {
-  background: red;
+  background-color: var(--main-color);
   font-size: 1.2rem;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -95,7 +100,7 @@ section .heading h2 {
 
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
-  color: red !important;
+  color: var(--main-color) !important;
   background: #fff;
 }
 
@@ -104,14 +109,14 @@ section .heading h2 {
   font-size: 2.3rem;
 }
 .navbar .fa-bars:hover {
-  color: #000;
+  color: var(--dark-color);
 }
 
 /* ABOUT */
 
 #about {
   padding-top: 100px;
-  background-color: red;
+  background-color: var(--main-color);
 }
 
 .profile-picture {
@@ -124,7 +129,7 @@ section .heading h2 {
 }
 
 #about .heading h3 {
-  color: #000;
+  color: var(--dark-color);
 }
 
 .button1 {
@@ -141,7 +146,7 @@ section .heading h2 {
 
 .button1:hover {
   background-color: #fff;
-  color: red;
+  color: var(--main-color);
   text-decoration: none;
 }
 
@@ -155,7 +160,7 @@ section .heading h2 {
 }
 
 .accordion .card .card-header {
-  background-color: red !important;
+  background-color: var(--main-color) !important;
   color: #fff;
 }
 
@@ -164,7 +169,7 @@ section .heading h2 {
 }
 
 .accordion .card .btn:hover {
-  color: #000;
+  color: var(--dark-color);
   font-weight: bold;
 }
 
@@ -175,7 +180,7 @@ section .heading h2 {
 }
 
 #skills .heading h2 {
-  color: red;
+  color: var(--main-color);
 }
 
 #skills .progress {
@@ -185,13 +190,13 @@ section .heading h2 {
 }
 
 #skills .progress h6 {
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 1px var(--dark-color);
 }
 
 /* EXPERIENCES */
 
 #experiences {
-  background: red;
+  background-color: var(--main-color);
 }
 
 #experiences .heading h2 {
@@ -230,10 +235,10 @@ section .heading h2 {
 }
 
 .timeline li .timeline-badge {
-  color: red;
+  color: var(--main-color);
   width: 50px;
   text-align: center;
-  background: #ddd;
+  background: #e4d8b4;
   border-radius: 50%;
   line-height: 50px;
   font-size: 1.8rem;
@@ -295,7 +300,7 @@ section .heading h2 {
 }
 
 .timeline-heading h4 {
-  color: red;
+  color: var(--main-color);
 }
 
 /* EDUCATION */
@@ -305,7 +310,7 @@ section .heading h2 {
 }
 
 #education .heading h2 {
-  color: red;
+  color: var(--main-color);
 }
 
 .education-block {
@@ -314,9 +319,9 @@ section .heading h2 {
   margin: 0 auto;
   text-align: center;
   padding: 30px;
-  background: #ddd;
+  background: #e4d8b4;
   border-radius: 10px;
-  border: 2px solid #ccc;
+  border: 2px solid #c2b28f;
   margin-bottom: 20px;
 }
 
@@ -330,7 +335,7 @@ section .heading h2 {
 }
 
 .education-block h3 {
-  color: red;
+  color: var(--main-color);
 }
 
 .education-block h4 {
@@ -341,14 +346,14 @@ section .heading h2 {
   font-weight: bold;
 }
 
-.education-block .red-divider {
+.education-block .color-divider {
   margin-bottom: 20px;
 }
 
 /* PORTFOLIO */
 
 #portfolio {
-  background: red;
+  background-color: var(--main-color);
 }
 
 #portfolio .heading h2 {
@@ -380,17 +385,17 @@ section .heading h2 {
 }
 
 #recommandations .heading h2 {
-  color: red;
+  color: var(--main-color);
 }
 
 .fa-chevron-left,
 .fa-chevron-right {
-  color: red;
+  color: var(--main-color);
   font-size: 1.5rem;
 }
 
 .carousel-indicators li {
-  background-color: red;
+  background-color: var(--main-color);
   height: 5px;
 }
 
@@ -399,7 +404,7 @@ section .heading h2 {
 }
 
 #myCarousel .carousel-item q {
-  color: red;
+  color: var(--main-color);
   font-size: 2.44rem;
   font-style: italic;
 }
@@ -411,7 +416,7 @@ section .heading h2 {
 /* FOOTER */
 
 footer {
-  background: #333;
+  background: var(--dark-color);
   padding: 20px 0 40px;
 }
 
@@ -424,7 +429,7 @@ footer .fa-arrow-alt-circle-up {
 
 footer .fa-arrow-alt-circle-up:hover {
   font-size: 5.2rem;
-  color: red;
+  color: var(--main-color);
 }
 
 footer p {

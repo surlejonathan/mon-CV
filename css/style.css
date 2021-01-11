@@ -121,8 +121,12 @@ section .heading h2 {
 
 .profile-picture {
   text-align: center;
-  max-width: 450px;
+  max-width: 400px;
   margin: 0 auto;
+}
+
+.profile-picture img {
+  background-color: black !important;
 }
 
 #about .heading h1 {

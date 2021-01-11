@@ -121,6 +121,7 @@ section .heading h2 {
 
 .profile-picture {
   text-align: center;
+  max-width: 450px;
   margin: 0 auto;
 }
 
@@ -164,13 +165,16 @@ section .heading h2 {
   color: #fff;
 }
 
-.accordion .card .btn {
+.accordion .card h2 {
   font-size: 2rem;
 }
 
-.accordion .card .btn:hover {
+.accordion .card a {
+  cursor: pointer;
+}
+
+.accordion .card a:hover {
   color: var(--dark-color);
-  font-weight: bold;
 }
 
 /* SKILLS */
